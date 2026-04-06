@@ -1,7 +1,0 @@
-USE myDB;
-SET AUTOCOMMIT = OFF;
-COMMIT;
-SELECT *
-FROM employees;
-DELETE FROM employees;
-ROLLBACK;
